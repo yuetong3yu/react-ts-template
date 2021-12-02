@@ -4,7 +4,8 @@
   "description": "A template for creating React.js applications with TypeScript and Webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --config webpack.config.js --env env=development",
+    "build": "webpack --config webpack.config.js --env env=production"
   },
   "keywords": [],
   "author": "",
