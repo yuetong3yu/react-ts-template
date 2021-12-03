@@ -1,3 +1,10 @@
+import { VKB as Keyboard } from './Keyboard/Keyboard';
+
 export const App = () => {
-  return <h1>Hello World!!</h1>;
+  return (
+    <>
+      <h3>Keyboard:</h3>
+      <Keyboard />
+    </>
+  );
 };

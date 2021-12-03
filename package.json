@@ -4,6 +4,7 @@
   "description": "a cool keyboard",
   "main": "index.js",
   "scripts": {
+    "dev": "npm start",
     "start": "webpack serve --config webpack.config.js --env env=development",
     "build": "webpack --config webpack.config.js --env env=production",
     "prettier": "prettier --write './src/**/*.{ts,tsx,js,jsx,css,less,json,md,yml,yaml}'",
